@@ -1,0 +1,37 @@
+atoms
+  /currentUserFollowedArtistsState 
+    CurrentUserFollowedArtistsTypes
+  /currentUserFollowedPlaylistsState
+    CurrentUserFollowedArtistsTypes
+  /currentUserLibraryState
+    CurrentUserLibraryTypes
+
+/components
+  /Layout
+    Layout
+    Header
+      AuthButton
+    /Sidebar
+      Sidebar
+      TopSidebar
+      SearchAndSort
+      SidebarFilter
+      SidebarHandle
+      SidebarLink
+      SidebarProvider
+      YourLibrary
+/api
+  /user
+    getCurrentUserFollowedPlaylists
+    getCurrentUserFollowedArtists
+/pages
+  /home
+  /playlist
+    /pid
+  /artist
+    /arid
+  /albums
+    /alid
+  /shows
+    /sid
+  
