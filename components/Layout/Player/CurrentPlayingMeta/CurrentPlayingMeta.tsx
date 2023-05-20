@@ -9,7 +9,7 @@ const CurrentPlayingMeta = () => {
 
   return (
     <Flex className="ml-2 hidden w-fit items-center justify-between space-x-4 md:flex">
-      <Flex className="m-2 h-16 w-16">
+      {/* <Flex className="m-2 h-16 w-16">
         {playerState?.item?.album?.images?.[0]?.url && (
           <Image
             className="h-16 w-16 object-contain"
@@ -26,7 +26,7 @@ const CurrentPlayingMeta = () => {
         </p>
         <p className="text-xs">{playerState?.item?.artists?.[0].name}</p>
       </Flex>
-      <HeartIcon className="w-5 text-lime-500" />
+      <HeartIcon className="w-5 text-lime-500" /> */}
     </Flex>
   );
 };
